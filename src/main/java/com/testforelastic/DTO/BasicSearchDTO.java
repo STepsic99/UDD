@@ -1,5 +1,6 @@
 package com.testforelastic.DTO;
 
+
 import lombok.*;
 
 @Getter
@@ -8,8 +9,10 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class BasicSearchDTO {
-    private String id;
     private String name;
     private String lastName;
-    private String highLight;
+    private String education;
+    private String cvHighLight;
+    private String clHighLight;
+
 }
