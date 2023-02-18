@@ -75,7 +75,8 @@ public class IndexerController {
 
 
     private void indexUploadedFile(UploadModel model) throws IOException{
-
+        boolean cvPassed = false;
+        Applicant indexUnit = null;
         for (MultipartFile file : model.getFiles()) {
 
             if (file.isEmpty()) {
@@ -83,12 +84,20 @@ public class IndexerController {
             }
             String fileName = saveUploadedFile(file);
             if(fileName != null){
-                Applicant indexUnit = indexer.getHandler(fileName).getIndexUnit(new File(fileName));
-                indexUnit.setName(model.getName());
-                indexUnit.setLastName(model.getLastName());
-                indexUnit.setEducation(model.getEducation());
-                indexer.add(indexUnit);
+                if(!cvPassed){
+                    indexUnit = indexer.getHandler(fileName).getIndexUnit(new File(fileName));
+                    cvPassed = true;
+                }
+                else {
+                    indexUnit = indexer.getHandler(fileName).getUpgradedIndexUnit(new File(fileName), indexUnit);
+                }
             }
+        }
+        if(indexUnit != null){
+            indexUnit.setName(model.getName());
+            indexUnit.setLastName(model.getLastName());
+            indexUnit.setEducation(model.getEducation());
+            indexer.add(indexUnit);
         }
     }
 

@@ -15,4 +15,6 @@ public abstract class DocumentHandler {
     public abstract Applicant getIndexUnit(File file);
     public abstract String getText(File file);
 
+    public abstract Applicant getUpgradedIndexUnit(File file,  Applicant retVal);
+
 }

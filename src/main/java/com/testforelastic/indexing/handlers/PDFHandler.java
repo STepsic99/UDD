@@ -29,6 +29,20 @@ public class PDFHandler extends DocumentHandler {
     }
 
     @Override
+    public Applicant getUpgradedIndexUnit(File file, Applicant retVal) {
+        try {
+            PDFParser parser = new PDFParser(new RandomAccessFile(file, "r"));
+            parser.parse();
+            String text = getText(parser);
+            retVal.setCoverLetterContent(text);
+        } catch (IOException e) {
+            System.out.println("Greksa pri konvertovanju dokumenta u pdf");
+        }
+
+        return retVal;
+    }
+
+    @Override
     public String getText(File file) {
         try {
             PDFParser parser = new PDFParser(new RandomAccessFile(file, "r"));
