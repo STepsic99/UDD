@@ -24,11 +24,19 @@ public class Indexer {
     }
 
     public boolean add(Applicant unit){
-        unit = repository.save(unit);
-        if(unit!=null)
-            return true;
-        else
-            return false;
+        try{
+            unit = repository.save(unit);
+        }
+        catch (Exception e){
+            System.out.println("Stand");
+        }
+        finally {
+            if(unit!=null)
+                return true;
+            else
+                return false;
+        }
+
     }
 
 }
