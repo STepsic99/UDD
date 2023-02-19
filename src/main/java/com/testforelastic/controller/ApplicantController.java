@@ -1,5 +1,6 @@
 package com.testforelastic.controller;
 
+import com.testforelastic.DTO.AdvancedSearchRequestDTO;
 import com.testforelastic.DTO.BasicSearchDTO;
 import com.testforelastic.model.Applicant;
 import com.testforelastic.service.ApplicantService;
@@ -26,6 +27,11 @@ public class ApplicantController {
     @GetMapping(value = "/basic-search")
     public List<BasicSearchDTO> basicSearch(@RequestParam String searchedText){
         return applicantService.basicSearch(searchedText);
+    }
+
+    @PostMapping(value = "/advanced-search")
+    public List<BasicSearchDTO> advancedSearch(@RequestBody List<AdvancedSearchRequestDTO> searchedText){
+        return applicantService.advancedSearch(searchedText);
     }
 
 }
