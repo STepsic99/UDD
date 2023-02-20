@@ -33,4 +33,18 @@ public class GeolocationService {
         return new GeoPoint(object.getDouble("latitude"),object.getDouble("longitude"));
     }
 
+    public String getCityBasedOnIpAddress(String ipAddress) throws IOException, InterruptedException {
+        HttpClient client = HttpClient.newHttpClient();
+        HttpRequest request = HttpRequest.newBuilder()
+                .version(HttpClient.Version.HTTP_2)
+                .uri(URI.create("https://api.ipgeolocation.io/ipgeo?apiKey=37780cebecf646769a73f726a0a2e3fa&ip="+ ipAddress))
+                .build();
+
+        HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+
+        JSONObject responseJSON = new JSONObject(response.body());
+        System.out.println(responseJSON.getString("city"));
+       return responseJSON.getString("city");
+    }
+
 }

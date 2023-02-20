@@ -1,0 +1,240 @@
+2023-Feb-20 06:48:31.451|INFO|org.hibernate.validator.internal.util.Version|HV000001: Hibernate Validator 5.3.5.Final
+2023-Feb-20 06:48:31.491|INFO|com.testforelastic.TestForElasticApplication|Starting TestForElasticApplication using Java 17.0.5 on DESKTOP-451HD6H with PID 17324 (C:\Users\ShowRunner\Desktop\UDD\test-for-elastic\target\classes started by ShowRunner in C:\Users\ShowRunner\Desktop\UDD\test-for-elastic)
+2023-Feb-20 06:48:31.497|INFO|com.testforelastic.TestForElasticApplication|No active profile set, falling back to 1 default profile: "default"
+2023-Feb-20 06:48:32.001|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 06:48:32.050|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 42 ms. Found 1 Elasticsearch repository interfaces.
+2023-Feb-20 06:48:32.055|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 06:48:32.059|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-Feb-20 06:48:32.561|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+2023-Feb-20 06:48:32.577|INFO|org.apache.coyote.http11.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 06:48:32.578|INFO|org.apache.catalina.core.StandardService|Starting service [Tomcat]
+2023-Feb-20 06:48:32.578|INFO|org.apache.catalina.core.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-Feb-20 06:48:32.665|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring embedded WebApplicationContext
+2023-Feb-20 06:48:32.666|INFO|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 1128 ms
+2023-Feb-20 06:48:33.645|INFO|org.apache.coyote.http11.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 06:48:33.658|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+2023-Feb-20 06:48:33.671|INFO|com.testforelastic.TestForElasticApplication|Started TestForElasticApplication in 2.484 seconds (JVM running for 3.186)
+2023-Feb-20 06:49:22.418|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Feb-20 06:49:22.419|INFO|org.springframework.web.servlet.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+2023-Feb-20 06:49:22.420|INFO|org.springframework.web.servlet.DispatcherServlet|Completed initialization in 1 ms
+2023-Feb-20 06:49:22.440|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment request received from city=TestCity.
+2023-Feb-20 06:54:45.589|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment request received from city=TestCity.
+2023-Feb-20 07:26:09.149|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment request received from city=TestCity.
+2023-Feb-20 07:53:16.708|INFO|org.hibernate.validator.internal.util.Version|HV000001: Hibernate Validator 5.3.5.Final
+2023-Feb-20 07:53:16.742|INFO|com.testforelastic.TestForElasticApplication|Starting TestForElasticApplication using Java 17.0.5 on DESKTOP-451HD6H with PID 12936 (C:\Users\ShowRunner\Desktop\UDD\test-for-elastic\target\classes started by ShowRunner in C:\Users\ShowRunner\Desktop\UDD\test-for-elastic)
+2023-Feb-20 07:53:16.746|INFO|com.testforelastic.TestForElasticApplication|No active profile set, falling back to 1 default profile: "default"
+2023-Feb-20 07:53:17.181|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 07:53:17.222|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 36 ms. Found 1 Elasticsearch repository interfaces.
+2023-Feb-20 07:53:17.229|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 07:53:17.233|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-Feb-20 07:53:17.661|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+2023-Feb-20 07:53:17.675|INFO|org.apache.coyote.http11.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 07:53:17.675|INFO|org.apache.catalina.core.StandardService|Starting service [Tomcat]
+2023-Feb-20 07:53:17.676|INFO|org.apache.catalina.core.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-Feb-20 07:53:17.760|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring embedded WebApplicationContext
+2023-Feb-20 07:53:17.760|INFO|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 974 ms
+2023-Feb-20 07:53:18.710|INFO|org.apache.coyote.http11.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 07:53:18.724|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+2023-Feb-20 07:53:18.736|INFO|com.testforelastic.TestForElasticApplication|Started TestForElasticApplication in 2.323 seconds (JVM running for 2.977)
+2023-Feb-20 07:53:21.753|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Feb-20 07:53:21.753|INFO|org.springframework.web.servlet.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+2023-Feb-20 07:53:21.754|INFO|org.springframework.web.servlet.DispatcherServlet|Completed initialization in 1 ms
+2023-Feb-20 07:53:21.778|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment request received from city=TestCity
+2023-Feb-20 07:57:21.285|INFO|org.hibernate.validator.internal.util.Version|HV000001: Hibernate Validator 5.3.5.Final
+2023-Feb-20 07:57:21.314|INFO|com.testforelastic.TestForElasticApplication|Starting TestForElasticApplication using Java 17.0.5 on DESKTOP-451HD6H with PID 17560 (C:\Users\ShowRunner\Desktop\UDD\test-for-elastic\target\classes started by ShowRunner in C:\Users\ShowRunner\Desktop\UDD\test-for-elastic)
+2023-Feb-20 07:57:21.318|INFO|com.testforelastic.TestForElasticApplication|No active profile set, falling back to 1 default profile: "default"
+2023-Feb-20 07:57:21.744|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 07:57:21.785|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 36 ms. Found 1 Elasticsearch repository interfaces.
+2023-Feb-20 07:57:21.791|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 07:57:21.794|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-Feb-20 07:57:22.243|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+2023-Feb-20 07:57:22.262|INFO|org.apache.coyote.http11.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 07:57:22.263|INFO|org.apache.catalina.core.StandardService|Starting service [Tomcat]
+2023-Feb-20 07:57:22.264|INFO|org.apache.catalina.core.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-Feb-20 07:57:22.363|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring embedded WebApplicationContext
+2023-Feb-20 07:57:22.363|INFO|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 992 ms
+2023-Feb-20 07:57:23.279|INFO|org.apache.coyote.http11.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 07:57:23.295|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+2023-Feb-20 07:57:23.307|INFO|com.testforelastic.TestForElasticApplication|Started TestForElasticApplication in 2.301 seconds (JVM running for 3.015)
+2023-Feb-20 07:57:27.369|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Feb-20 07:57:27.370|INFO|org.springframework.web.servlet.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+2023-Feb-20 07:57:27.370|INFO|org.springframework.web.servlet.DispatcherServlet|Completed initialization in 0 ms
+2023-Feb-20 07:57:27.395|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment request received from city=TestCity
+2023-Feb-20 08:00:32.166|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment request received from city=TestCity
+2023-Feb-20 08:01:16.712|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment request received from city=TestCity
+2023-Feb-20 08:06:42.958|INFO|org.hibernate.validator.internal.util.Version|HV000001: Hibernate Validator 5.3.5.Final
+2023-Feb-20 08:06:42.990|INFO|com.testforelastic.TestForElasticApplication|Starting TestForElasticApplication using Java 17.0.5 on DESKTOP-451HD6H with PID 19092 (C:\Users\ShowRunner\Desktop\UDD\test-for-elastic\target\classes started by ShowRunner in C:\Users\ShowRunner\Desktop\UDD\test-for-elastic)
+2023-Feb-20 08:06:42.994|INFO|com.testforelastic.TestForElasticApplication|No active profile set, falling back to 1 default profile: "default"
+2023-Feb-20 08:06:43.576|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 08:06:43.646|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 62 ms. Found 1 Elasticsearch repository interfaces.
+2023-Feb-20 08:06:43.655|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 08:06:43.661|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 4 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-Feb-20 08:06:44.141|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+2023-Feb-20 08:06:44.156|INFO|org.apache.coyote.http11.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 08:06:44.156|INFO|org.apache.catalina.core.StandardService|Starting service [Tomcat]
+2023-Feb-20 08:06:44.157|INFO|org.apache.catalina.core.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-Feb-20 08:06:44.250|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring embedded WebApplicationContext
+2023-Feb-20 08:06:44.250|INFO|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 1216 ms
+2023-Feb-20 08:06:45.225|INFO|org.apache.coyote.http11.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 08:06:45.239|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+2023-Feb-20 08:06:45.253|INFO|com.testforelastic.TestForElasticApplication|Started TestForElasticApplication in 2.549 seconds (JVM running for 3.233)
+2023-Feb-20 08:06:49.494|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Feb-20 08:06:49.494|INFO|org.springframework.web.servlet.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+2023-Feb-20 08:06:49.495|INFO|org.springframework.web.servlet.DispatcherServlet|Completed initialization in 1 ms
+2023-Feb-20 08:06:49.517|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment request received from city=TestCity
+2023-Feb-20 08:14:23.562|INFO|org.hibernate.validator.internal.util.Version|HV000001: Hibernate Validator 5.3.5.Final
+2023-Feb-20 08:14:23.595|INFO|com.testforelastic.TestForElasticApplication|Starting TestForElasticApplication using Java 17.0.5 on DESKTOP-451HD6H with PID 15160 (C:\Users\ShowRunner\Desktop\UDD\test-for-elastic\target\classes started by ShowRunner in C:\Users\ShowRunner\Desktop\UDD\test-for-elastic)
+2023-Feb-20 08:14:23.599|INFO|com.testforelastic.TestForElasticApplication|No active profile set, falling back to 1 default profile: "default"
+2023-Feb-20 08:14:24.076|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 08:14:24.122|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 41 ms. Found 1 Elasticsearch repository interfaces.
+2023-Feb-20 08:14:24.129|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 08:14:24.133|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-Feb-20 08:14:24.634|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+2023-Feb-20 08:14:24.650|INFO|org.apache.coyote.http11.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 08:14:24.651|INFO|org.apache.catalina.core.StandardService|Starting service [Tomcat]
+2023-Feb-20 08:14:24.651|INFO|org.apache.catalina.core.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-Feb-20 08:14:24.756|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring embedded WebApplicationContext
+2023-Feb-20 08:14:24.756|INFO|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 1118 ms
+2023-Feb-20 08:14:25.853|INFO|org.apache.coyote.http11.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 08:14:25.868|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+2023-Feb-20 08:14:25.882|INFO|com.testforelastic.TestForElasticApplication|Started TestForElasticApplication in 2.576 seconds (JVM running for 3.736)
+2023-Feb-20 08:14:43.337|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Feb-20 08:14:43.338|INFO|org.springframework.web.servlet.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+2023-Feb-20 08:14:43.339|INFO|org.springframework.web.servlet.DispatcherServlet|Completed initialization in 1 ms
+2023-Feb-20 08:26:21.689|INFO|org.hibernate.validator.internal.util.Version|HV000001: Hibernate Validator 5.3.5.Final
+2023-Feb-20 08:26:21.746|INFO|com.testforelastic.TestForElasticApplication|Starting TestForElasticApplication using Java 17.0.5 on DESKTOP-451HD6H with PID 2976 (C:\Users\ShowRunner\Desktop\UDD\test-for-elastic\target\classes started by ShowRunner in C:\Users\ShowRunner\Desktop\UDD\test-for-elastic)
+2023-Feb-20 08:26:21.751|INFO|com.testforelastic.TestForElasticApplication|No active profile set, falling back to 1 default profile: "default"
+2023-Feb-20 08:26:22.242|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 08:26:22.286|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 39 ms. Found 1 Elasticsearch repository interfaces.
+2023-Feb-20 08:26:22.292|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 08:26:22.296|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-Feb-20 08:26:22.787|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+2023-Feb-20 08:26:22.807|INFO|org.apache.coyote.http11.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 08:26:22.808|INFO|org.apache.catalina.core.StandardService|Starting service [Tomcat]
+2023-Feb-20 08:26:22.809|INFO|org.apache.catalina.core.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-Feb-20 08:26:22.925|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring embedded WebApplicationContext
+2023-Feb-20 08:26:22.926|INFO|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 1129 ms
+2023-Feb-20 08:26:24.081|INFO|org.apache.coyote.http11.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 08:26:24.097|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+2023-Feb-20 08:26:24.112|INFO|com.testforelastic.TestForElasticApplication|Started TestForElasticApplication in 2.685 seconds (JVM running for 3.5)
+2023-Feb-20 08:26:29.951|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Feb-20 08:26:29.952|INFO|org.springframework.web.servlet.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+2023-Feb-20 08:26:29.952|INFO|org.springframework.web.servlet.DispatcherServlet|Completed initialization in 0 ms
+2023-Feb-20 08:27:22.732|INFO|org.hibernate.validator.internal.util.Version|HV000001: Hibernate Validator 5.3.5.Final
+2023-Feb-20 08:27:22.772|INFO|com.testforelastic.TestForElasticApplication|Starting TestForElasticApplication using Java 17.0.5 on DESKTOP-451HD6H with PID 18648 (C:\Users\ShowRunner\Desktop\UDD\test-for-elastic\target\classes started by ShowRunner in C:\Users\ShowRunner\Desktop\UDD\test-for-elastic)
+2023-Feb-20 08:27:22.777|INFO|com.testforelastic.TestForElasticApplication|No active profile set, falling back to 1 default profile: "default"
+2023-Feb-20 08:27:23.298|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 08:27:23.343|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 35 ms. Found 1 Elasticsearch repository interfaces.
+2023-Feb-20 08:27:23.350|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 08:27:23.354|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-Feb-20 08:27:23.823|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+2023-Feb-20 08:27:23.842|INFO|org.apache.coyote.http11.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 08:27:23.842|INFO|org.apache.catalina.core.StandardService|Starting service [Tomcat]
+2023-Feb-20 08:27:23.842|INFO|org.apache.catalina.core.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-Feb-20 08:27:23.943|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring embedded WebApplicationContext
+2023-Feb-20 08:27:23.943|INFO|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 1127 ms
+2023-Feb-20 08:27:24.909|INFO|org.apache.coyote.http11.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 08:27:24.926|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+2023-Feb-20 08:27:24.940|INFO|com.testforelastic.TestForElasticApplication|Started TestForElasticApplication in 2.478 seconds (JVM running for 3.32)
+2023-Feb-20 08:31:33.019|INFO|org.hibernate.validator.internal.util.Version|HV000001: Hibernate Validator 5.3.5.Final
+2023-Feb-20 08:31:33.055|INFO|com.testforelastic.TestForElasticApplication|Starting TestForElasticApplication using Java 17.0.5 on DESKTOP-451HD6H with PID 16680 (C:\Users\ShowRunner\Desktop\UDD\test-for-elastic\target\classes started by ShowRunner in C:\Users\ShowRunner\Desktop\UDD\test-for-elastic)
+2023-Feb-20 08:31:33.060|INFO|com.testforelastic.TestForElasticApplication|No active profile set, falling back to 1 default profile: "default"
+2023-Feb-20 08:31:33.497|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 08:31:33.540|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 33 ms. Found 1 Elasticsearch repository interfaces.
+2023-Feb-20 08:31:33.545|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 08:31:33.550|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-Feb-20 08:31:34.018|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+2023-Feb-20 08:31:34.034|INFO|org.apache.coyote.http11.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 08:31:34.035|INFO|org.apache.catalina.core.StandardService|Starting service [Tomcat]
+2023-Feb-20 08:31:34.035|INFO|org.apache.catalina.core.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-Feb-20 08:31:34.128|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring embedded WebApplicationContext
+2023-Feb-20 08:31:34.128|INFO|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 1028 ms
+2023-Feb-20 08:31:35.227|INFO|org.apache.coyote.http11.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 08:31:35.241|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+2023-Feb-20 08:31:35.254|INFO|com.testforelastic.TestForElasticApplication|Started TestForElasticApplication in 2.492 seconds (JVM running for 3.457)
+2023-Feb-20 08:31:39.321|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Feb-20 08:31:39.321|INFO|org.springframework.web.servlet.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+2023-Feb-20 08:31:39.322|INFO|org.springframework.web.servlet.DispatcherServlet|Completed initialization in 1 ms
+2023-Feb-20 08:31:52.409|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment request received from city=Mountain View
+2023-Feb-20 08:32:27.992|INFO|org.hibernate.validator.internal.util.Version|HV000001: Hibernate Validator 5.3.5.Final
+2023-Feb-20 08:32:28.018|INFO|com.testforelastic.TestForElasticApplication|Starting TestForElasticApplication using Java 17.0.5 on DESKTOP-451HD6H with PID 12124 (C:\Users\ShowRunner\Desktop\UDD\test-for-elastic\target\classes started by ShowRunner in C:\Users\ShowRunner\Desktop\UDD\test-for-elastic)
+2023-Feb-20 08:32:28.023|INFO|com.testforelastic.TestForElasticApplication|No active profile set, falling back to 1 default profile: "default"
+2023-Feb-20 08:32:28.446|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 08:32:28.482|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 32 ms. Found 1 Elasticsearch repository interfaces.
+2023-Feb-20 08:32:28.488|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 08:32:28.492|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-Feb-20 08:32:28.879|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+2023-Feb-20 08:32:28.891|INFO|org.apache.coyote.http11.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 08:32:28.892|INFO|org.apache.catalina.core.StandardService|Starting service [Tomcat]
+2023-Feb-20 08:32:28.892|INFO|org.apache.catalina.core.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-Feb-20 08:32:28.978|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring embedded WebApplicationContext
+2023-Feb-20 08:32:28.979|INFO|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 920 ms
+2023-Feb-20 08:32:29.885|INFO|org.apache.coyote.http11.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 08:32:29.895|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+2023-Feb-20 08:32:29.907|INFO|com.testforelastic.TestForElasticApplication|Started TestForElasticApplication in 2.156 seconds (JVM running for 2.771)
+2023-Feb-20 08:32:34.406|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Feb-20 08:32:34.406|INFO|org.springframework.web.servlet.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+2023-Feb-20 08:32:34.408|INFO|org.springframework.web.servlet.DispatcherServlet|Completed initialization in 2 ms
+2023-Feb-20 08:32:34.810|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment request received from city=Mountain View
+2023-Feb-20 09:10:36.749|INFO|org.hibernate.validator.internal.util.Version|HV000001: Hibernate Validator 5.3.5.Final
+2023-Feb-20 09:10:36.786|INFO|com.testforelastic.TestForElasticApplication|Starting TestForElasticApplication using Java 17.0.5 on DESKTOP-451HD6H with PID 7664 (C:\Users\ShowRunner\Desktop\UDD\test-for-elastic\target\classes started by ShowRunner in C:\Users\ShowRunner\Desktop\UDD\test-for-elastic)
+2023-Feb-20 09:10:36.790|INFO|com.testforelastic.TestForElasticApplication|No active profile set, falling back to 1 default profile: "default"
+2023-Feb-20 09:10:37.249|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 09:10:37.331|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 74 ms. Found 1 Elasticsearch repository interfaces.
+2023-Feb-20 09:10:37.337|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 09:10:37.341|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-Feb-20 09:10:37.817|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+2023-Feb-20 09:10:37.836|INFO|org.apache.coyote.http11.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 09:10:37.837|INFO|org.apache.catalina.core.StandardService|Starting service [Tomcat]
+2023-Feb-20 09:10:37.838|INFO|org.apache.catalina.core.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-Feb-20 09:10:37.983|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring embedded WebApplicationContext
+2023-Feb-20 09:10:37.983|INFO|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 1153 ms
+2023-Feb-20 09:10:38.989|INFO|org.apache.coyote.http11.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 09:10:39.004|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+2023-Feb-20 09:10:39.018|INFO|com.testforelastic.TestForElasticApplication|Started TestForElasticApplication in 2.52 seconds (JVM running for 3.158)
+2023-Feb-20 09:11:32.506|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Feb-20 09:11:32.506|INFO|org.springframework.web.servlet.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+2023-Feb-20 09:11:32.507|INFO|org.springframework.web.servlet.DispatcherServlet|Completed initialization in 1 ms
+2023-Feb-20 09:11:32.538|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment at company=Kompanija1 was successfully led by employee=Zaposleni1
+2023-Feb-20 09:16:17.449|INFO|org.hibernate.validator.internal.util.Version|HV000001: Hibernate Validator 5.3.5.Final
+2023-Feb-20 09:16:17.490|INFO|com.testforelastic.TestForElasticApplication|Starting TestForElasticApplication using Java 17.0.5 on DESKTOP-451HD6H with PID 9696 (C:\Users\ShowRunner\Desktop\UDD\test-for-elastic\target\classes started by ShowRunner in C:\Users\ShowRunner\Desktop\UDD\test-for-elastic)
+2023-Feb-20 09:16:17.496|INFO|com.testforelastic.TestForElasticApplication|No active profile set, falling back to 1 default profile: "default"
+2023-Feb-20 09:16:17.949|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 09:16:17.988|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 34 ms. Found 1 Elasticsearch repository interfaces.
+2023-Feb-20 09:16:17.993|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 09:16:17.997|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 3 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-Feb-20 09:16:18.428|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+2023-Feb-20 09:16:18.444|INFO|org.apache.coyote.http11.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 09:16:18.445|INFO|org.apache.catalina.core.StandardService|Starting service [Tomcat]
+2023-Feb-20 09:16:18.445|INFO|org.apache.catalina.core.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-Feb-20 09:16:18.534|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring embedded WebApplicationContext
+2023-Feb-20 09:16:18.534|INFO|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 999 ms
+2023-Feb-20 09:16:19.383|INFO|org.apache.coyote.http11.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 09:16:19.394|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+2023-Feb-20 09:16:19.406|INFO|com.testforelastic.TestForElasticApplication|Started TestForElasticApplication in 2.24 seconds (JVM running for 2.871)
+2023-Feb-20 09:16:55.619|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Feb-20 09:16:55.619|INFO|org.springframework.web.servlet.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+2023-Feb-20 09:16:55.620|INFO|org.springframework.web.servlet.DispatcherServlet|Completed initialization in 1 ms
+2023-Feb-20 09:16:56.085|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment request received from city=MountainView
+2023-Feb-20 09:17:51.114|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment at company=Kompanija1 was successfully led by employee=Zaposleni1
+2023-Feb-20 09:39:36.841|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment at company=Kompanija1 was successfully led by employee=Zaposleni1
+2023-Feb-20 09:51:18.723|INFO|org.hibernate.validator.internal.util.Version|HV000001: Hibernate Validator 5.3.5.Final
+2023-Feb-20 09:51:18.756|INFO|com.testforelastic.TestForElasticApplication|Starting TestForElasticApplication using Java 17.0.5 on DESKTOP-451HD6H with PID 16280 (C:\Users\ShowRunner\Desktop\UDD\test-for-elastic\target\classes started by ShowRunner in C:\Users\ShowRunner\Desktop\UDD\test-for-elastic)
+2023-Feb-20 09:51:18.765|INFO|com.testforelastic.TestForElasticApplication|No active profile set, falling back to 1 default profile: "default"
+2023-Feb-20 09:51:19.271|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 09:51:19.325|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 48 ms. Found 1 Elasticsearch repository interfaces.
+2023-Feb-20 09:51:19.331|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2023-Feb-20 09:51:19.337|INFO|org.springframework.data.repository.config.RepositoryConfigurationDelegate|Finished Spring Data repository scanning in 5 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2023-Feb-20 09:51:19.816|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat initialized with port(s): 8080 (http)
+2023-Feb-20 09:51:19.833|INFO|org.apache.coyote.http11.Http11NioProtocol|Initializing ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 09:51:19.834|INFO|org.apache.catalina.core.StandardService|Starting service [Tomcat]
+2023-Feb-20 09:51:19.834|INFO|org.apache.catalina.core.StandardEngine|Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-Feb-20 09:51:19.937|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring embedded WebApplicationContext
+2023-Feb-20 09:51:19.938|INFO|org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext|Root WebApplicationContext: initialization completed in 1115 ms
+2023-Feb-20 09:51:21.264|INFO|org.apache.coyote.http11.Http11NioProtocol|Starting ProtocolHandler ["http-nio-8080"]
+2023-Feb-20 09:51:21.280|INFO|org.springframework.boot.web.embedded.tomcat.TomcatWebServer|Tomcat started on port(s): 8080 (http) with context path ''
+2023-Feb-20 09:51:21.298|INFO|com.testforelastic.TestForElasticApplication|Started TestForElasticApplication in 2.871 seconds (JVM running for 3.797)
+2023-Feb-20 09:51:32.970|INFO|org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]|Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-Feb-20 09:51:32.970|INFO|org.springframework.web.servlet.DispatcherServlet|Initializing Servlet 'dispatcherServlet'
+2023-Feb-20 09:51:32.972|INFO|org.springframework.web.servlet.DispatcherServlet|Completed initialization in 2 ms
+2023-Feb-20 09:51:33.352|INFO|com.testforelastic.controller.PremiumEmploymentController|Employment request received from city=Monroe
