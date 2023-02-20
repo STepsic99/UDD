@@ -1,21 +1,27 @@
 package com.testforelastic.service;
 
+import co.elastic.clients.elasticsearch._types.query_dsl.GeoDistanceQuery;
 import com.testforelastic.DTO.AdvancedSearchRequestDTO;
 import com.testforelastic.DTO.BasicSearchDTO;
+import com.testforelastic.DTO.GeolocationSearchDTO;
 import com.testforelastic.model.Applicant;
 
+import com.testforelastic.model.Coordinates;
+import org.elasticsearch.common.unit.DistanceUnit;
 import org.elasticsearch.index.query.BoolQueryBuilder;
-import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.index.query.GeoDistanceQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate;
 import org.springframework.data.elasticsearch.core.SearchHit;
 import org.springframework.data.elasticsearch.core.SearchHits;
 
+import org.elasticsearch.common.geo.GeoPoint;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQuery;
 import org.springframework.data.elasticsearch.core.query.NativeSearchQueryBuilder;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,8 +33,11 @@ public class ApplicantService {
 
     private ElasticsearchRestTemplate template;
 
-    public ApplicantService(ElasticsearchRestTemplate template) {
+    private final GeolocationService geolocationService;
+
+    public ApplicantService(ElasticsearchRestTemplate template, GeolocationService geolocationService) {
         this.template = template;
+        this.geolocationService = geolocationService;
     }
 
     public List<BasicSearchDTO> basicSearch(String searchedText){
@@ -51,6 +60,7 @@ public class ApplicantService {
             retVal.add(BasicSearchDTO.builder().name(hit.getContent().getName())
                             .lastName(hit.getContent().getLastName())
                             .education(hit.getContent().getEducation())
+                            .address(hit.getContent().getAddress())
                             .cvHighLight(hit.getHighlightField("cvContent").isEmpty()?"":hit.getHighlightField("cvContent").get(0))
                             .clHighLight(hit.getHighlightField("coverLetterContent").isEmpty()?"":hit.getHighlightField("coverLetterContent").get(0))
                             .build());
@@ -85,6 +95,7 @@ public class ApplicantService {
             retVal.add(BasicSearchDTO.builder().name(hit.getContent().getName())
                     .lastName(hit.getContent().getLastName())
                     .education(hit.getContent().getEducation())
+                    .address(hit.getContent().getAddress())
                     .cvHighLight(hit.getHighlightField("cvContent").isEmpty()?"":hit.getHighlightField("cvContent").get(0))
                     .clHighLight(hit.getHighlightField("coverLetterContent").isEmpty()?"":hit.getHighlightField("coverLetterContent").get(0))
                     .build());
@@ -92,4 +103,28 @@ public class ApplicantService {
         return retVal;
     }
 
+
+    public List<GeolocationSearchDTO> geolocationSearch(String city, double radius) throws IOException, InterruptedException {
+        List<GeolocationSearchDTO> retVal = new ArrayList<GeolocationSearchDTO>();
+
+        GeoPoint geoPoint = geolocationService.getCoordinatesBasedOnAddress(city);
+
+        GeoDistanceQueryBuilder geoDistanceQueryBuilder = new GeoDistanceQueryBuilder("location")
+                .point(geoPoint.getLat(),geoPoint.getLon())
+                .distance(radius, DistanceUnit.KILOMETERS);
+
+        NativeSearchQuery searchQuery = new NativeSearchQueryBuilder()
+                .withQuery(geoDistanceQueryBuilder)
+                .build();
+
+        SearchHits<Applicant> hits = template.search(searchQuery, Applicant.class);
+        for(SearchHit<Applicant> hit: hits){
+            retVal.add(GeolocationSearchDTO.builder().name(hit.getContent().getName())
+                    .lastName(hit.getContent().getLastName())
+                    .education(hit.getContent().getEducation())
+                    .address(hit.getContent().getAddress())
+                    .build());
+        }
+        return retVal;
+    }
 }
