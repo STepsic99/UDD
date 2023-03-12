@@ -3,6 +3,8 @@ package com.testforelastic.model;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.elasticsearch.annotations.GeoPointField;
+import org.elasticsearch.common.geo.GeoPoint;
 
 @Getter
 @Setter
@@ -17,4 +19,7 @@ public class Applicant {
     private String education;
     private String cvContent;
     private String coverLetterContent;
+    private String address;
+    @GeoPointField
+    private GeoPoint location;
 }

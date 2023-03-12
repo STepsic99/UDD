@@ -3,16 +3,31 @@ package com.testforelastic.controller;
 import com.testforelastic.DTO.UploadModel;
 import com.testforelastic.indexing.Indexer;
 import com.testforelastic.model.Applicant;
+import com.testforelastic.model.Coordinates;
+import com.testforelastic.service.GeolocationService;
+import netscape.javascript.JSObject;
+import org.json.JSONArray;
 import org.springframework.beans.factory.annotation.Autowired;
+
+import org.elasticsearch.common.geo.GeoPoint;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import org.json.JSONObject;
+
+import javax.json.JsonArray;
 import java.io.File;
 import java.io.IOException;
+import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.net.URLEncoder;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -33,6 +48,9 @@ public class IndexerController {
     @Autowired
     private Indexer indexer;
 
+    @Autowired
+    private GeolocationService geolocationService;
+
     @PostMapping("/add")
     public ResponseEntity<String> multiUploadFileModel(@ModelAttribute UploadModel model) {
 
@@ -41,7 +59,7 @@ public class IndexerController {
 
             indexUploadedFile(model);
 
-        } catch (IOException e) {
+        } catch (IOException | InterruptedException e) {
             return new ResponseEntity<String>(HttpStatus.BAD_REQUEST);
         }
 
@@ -74,7 +92,7 @@ public class IndexerController {
     }
 
 
-    private void indexUploadedFile(UploadModel model) throws IOException{
+    private void indexUploadedFile(UploadModel model) throws IOException, InterruptedException {
         boolean cvPassed = false;
         Applicant indexUnit = null;
         for (MultipartFile file : model.getFiles()) {
@@ -97,6 +115,9 @@ public class IndexerController {
             indexUnit.setName(model.getName());
             indexUnit.setLastName(model.getLastName());
             indexUnit.setEducation(model.getEducation());
+            indexUnit.setAddress(model.getAddress());
+            GeoPoint geoPoint = geolocationService.getCoordinatesBasedOnAddress(model.getAddress());
+            indexUnit.setLocation(geoPoint);
             indexer.add(indexUnit);
         }
     }
